@@ -1,0 +1,25 @@
+<h1>Calculadora de Interés Simple</h1>
+<hr>
+<br><br>
+<form action="/calculator" method="POST">
+  <div class="container">
+    <input name="capital" type="number" required="true" placeholder="Capital" value="{{capital}}">
+  </div>
+  <br>
+  <div class="container">
+    <input name="rate" type="number" required="true" placeholder="Tasa" value="{{rate}}">
+  </div>
+  <br>
+  <div class="container">
+    <input name="years" type="number" required="true" placeholder="Años" value="{{years}}">
+  </div>
+  <br>
+  <div class="container">
+    <button type="submit" class="btn btn-outline-secondary"> Calcular Interés Simple</button>
+  </div>
+ 
+</form>
+<br>
+<h2>Interés Simple: {{result}}</h2>
+<br>
+<p><a href="/">Volver a Home.</a></p>
